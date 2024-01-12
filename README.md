@@ -1,6 +1,6 @@
 # Redux Redux-thunk Revision
 
-<h3> Redux- It is Predictable JavaScript state management library </h3>
+<h3> Redux- It is predictable JavaScript state management library </h3>
 
 <h3> Its works on three Principle </h3>
 
