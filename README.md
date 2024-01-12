@@ -1,21 +1,21 @@
 # Redux Redux-thunk Revision
 
-## Redux- It is Predictable JavaScript state management library.
+<h3> Redux- It is Predictable JavaScript state management library </h3>
 
-## Its works on three Principle
+<h3> Its works on three Principle </h3>
 
 - Single source of truth
 - State is read only
 - Changes are made only pure functions
 
-## Components of Redux
+ <h3> Components of Redux </h3>
 
 - Action
 - Reducer
 - Store
 
-## Action -
+<h3> Action -   </h3>
 
-## Reducer -
+<h3>Reducer -   <h3>
 
-## Store -
+<h3> Store -    <h3>
