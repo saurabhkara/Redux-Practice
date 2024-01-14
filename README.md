@@ -1,4 +1,4 @@
-# Redux Redux-thunk Revision
+# TODO aplication using Redux Redux-thunk Revision
 
 <h3> Redux- It is predictable JavaScript state management library </h3>
 
@@ -13,9 +13,5 @@
 - Action
 - Reducer
 - Store
-
-<h3> Action -   </h3>
-
-<h3>Reducer -   <h3>
-
-<h3> Store -    <h3>
+- useSelector()
+- useDispatch()

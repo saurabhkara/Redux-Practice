@@ -1,0 +1,39 @@
+.card {
+  height: 50px;
+  width: 250px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.titleContainer {
+  width: 180px;
+  /* height: "100%"; */
+  /* background-color: aqua; */
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.title {
+}
+
+.buttonContainer {
+  width: "20%";
+  background-color: brown;
+  justify-content: space-around;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+}
+
+.editBtn {
+  color: blue;
+}
+.DeleteBtn {
+  color: red;
+}
