@@ -15,3 +15,4 @@
 - Store
 - useSelector()
 - useDispatch()
+- thunk
