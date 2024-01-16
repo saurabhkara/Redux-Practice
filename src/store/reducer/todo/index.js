@@ -2,6 +2,7 @@ import constantTodo from "../../constants";
 // import { combineReducers } from "redux";
 const intialState = {
   todo: [],
+  thunkData: "",
 };
 
 function todoReduer(state = intialState, action) {
@@ -20,6 +21,10 @@ function todoReduer(state = intialState, action) {
     case constantTodo.DELETE: {
       const prevData = state.todo.filter((item) => item.id !== payload.id);
       state.todo = [...prevData];
+      return { ...state };
+    }
+    case constantTodo.LOAD: {
+      state.thunkData = payload;
       return { ...state };
     }
     default:

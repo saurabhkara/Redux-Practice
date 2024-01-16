@@ -4,6 +4,7 @@ import {
   addTodoAction,
   deleteTodoAction,
   editTodoAction,
+  loadDataAsync,
 } from "./store/action/todo";
 import { useState } from "react";
 import Todo from "./component/Todo";
@@ -47,9 +48,18 @@ function App() {
     dispatch(deleteTodoAction(item));
   };
 
+  const handleAsync = () => {
+    dispatch(loadDataAsync());
+  };
+
   return (
     <div className="App">
       <h1>TODO application using Redux</h1>
+      <div className="thunk">
+        <h4>Redux Thunk Load data asynchrounously</h4>
+        <button onClick={handleAsync}>Load</button>
+        <p>{state.thunkData}</p>
+      </div>
       <div>
         <input
           placeholder="Enter your todo"

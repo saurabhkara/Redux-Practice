@@ -14,3 +14,13 @@ export function deleteTodoAction(todo) {
   console.log("Delete Action todo", todo);
   return { type: constantTodo.DELETE, payload: todo };
 }
+
+//------------ Redux thunk--------
+
+export function loadDataAsync() {
+  return function (dispatch, state) {
+    setTimeout(() => {
+      dispatch({ type: constantTodo.LOAD, payload: "Saurabh" });
+    }, 5000);
+  };
+}

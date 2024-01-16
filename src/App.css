@@ -20,6 +20,15 @@
   color: #61dafb;
 }
 
+.thunk {
+  display: flex;
+  height: 50px;
+  width: 500px;
+  justify-content: space-around;
+  background-color: aqua;
+  align-items: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
